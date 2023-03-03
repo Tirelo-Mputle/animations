@@ -1,0 +1,30 @@
+.twitter {
+  font-size: 1rem;
+  position: absolute;
+  top: 25rem;
+  left: 25rem;
+  animation-name: fly;
+  animation-duration: 5s;
+  animation-iteration-count: 3;
+  animation-timing-function: ease;
+}
+
+@keyframes fly {
+  0% {
+    font-size: 1rem;
+    color: red;
+  }
+  25% {
+    font-size: 2rem;
+    transform: translate(3rem, 3rem);
+  }
+  50% {
+    font-size: 3rem;
+    transform: translate(6rem, -3rem);
+  }
+  100% {
+    font-size: 4rem;
+    transform: translate(9rem, 3rem);
+    color: blue;
+  }
+}
